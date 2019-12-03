@@ -1,9 +1,9 @@
-import { Injectable, Inject } from "@nestjs/common";
+import { Injectable, Inject } from '@nestjs/common';
 import TaskRepository from 'src/repository/task.repository';
 import { Repository, getCustomRepository, EntityManager } from 'typeorm';
-import Task from "src/entity/task.entity";
-import { PagedList } from "src/infastructure/paging/paged-list";
-import { PagingInfo } from "src/infastructure/paging/paging-info";
+import Task from 'src/entity/task.entity';
+import { PagedList } from 'src/infastructure/paging/paged-list';
+import { PagingInfo } from 'src/infastructure/paging/paging-info';
 
 @Injectable()
 export default class TaskService {

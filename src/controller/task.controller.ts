@@ -1,5 +1,5 @@
-import { Controller, Post, Body, Get, Param, ParseIntPipe, Query } from "@nestjs/common";
-import TaskService from "src/service/task.service";
+import { Controller, Post, Body, Get, Param, ParseIntPipe, Query } from '@nestjs/common';
+import TaskService from 'src/service/task.service';
 
 @Controller('task')
 export class TaskController {

@@ -1,5 +1,5 @@
-import Identifyable from "./indentifyable";
-import { Column } from "typeorm";
+import Identifyable from './indentifyable';
+import { Column } from 'typeorm';
 
 export abstract class Auditable extends Identifyable {
     @Column()

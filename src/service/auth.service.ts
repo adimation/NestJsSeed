@@ -1,9 +1,9 @@
 import { PagingInfo } from './../infastructure/paging/paging-info';
-import { UserRepository } from "src/repository/user.repository";
+import { UserRepository } from 'src/repository/user.repository';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Injectable } from "@nestjs/common";
-import { UserDTO } from "src/dto/user/user.dto";
-import { PagedList } from "src/infastructure/paging/paged-list";
+import { Injectable } from '@nestjs/common';
+import { UserDTO } from 'src/dto/user/user.dto';
+import { PagedList } from 'src/infastructure/paging/paged-list';
 import User from 'src/entity/user.entity';
 import { getCustomRepository, EntityManager } from 'typeorm';
 

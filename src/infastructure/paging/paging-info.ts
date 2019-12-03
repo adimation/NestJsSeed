@@ -1,4 +1,4 @@
-import { OrderDirection } from "./order-direction";
+import { OrderDirection } from './order-direction';
 
 export class PagingInfo {
     public PageIndex: number;

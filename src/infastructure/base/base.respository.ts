@@ -1,6 +1,6 @@
-import { Repository } from "typeorm";
-import { PagedList } from "../paging/paged-list";
-import { PagingInfo } from "../paging/paging-info";
+import { Repository } from 'typeorm';
+import { PagedList } from '../paging/paged-list';
+import { PagingInfo } from '../paging/paging-info';
 import { OrderDirection } from '../paging/order-direction';
 
 export default class BaseRepository<T> extends Repository<T> {
